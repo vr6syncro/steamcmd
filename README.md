@@ -1,7 +1,9 @@
 [![](https://img.shields.io/codacy/grade/6a8e207cf98246169e633d6f22da9d9c)](https://hub.docker.com/r/cm2network/steamcmd/) [![Docker Build Status](https://img.shields.io/docker/cloud/build/cm2network/steamcmd.svg)](https://hub.docker.com/r/cm2network/steamcmd/) [![Docker Stars](https://img.shields.io/docker/stars/cm2network/steamcmd.svg)](https://hub.docker.com/r/cm2network/steamcmd/) [![Docker Pulls](https://img.shields.io/docker/pulls/cm2network/steamcmd.svg)](https://hub.docker.com/r/cm2network/steamcmd/) [![](https://img.shields.io/docker/image-size/cm2network/steamcmd)](https://img.shields.io/docker/image-size/cm2network/steamcmd) [![Discord](https://img.shields.io/discord/747067734029893653)](https://discord.gg/7ntmAwM)
 # Supported tags and respective `Dockerfile` links
-  -	[`steam`, `steam-bookworm`, `latest` (*bookworm/Dockerfile*)](https://github.com/CM2Walki/steamcmd/blob/master/bookworm/Dockerfile)
-  -	[`root`, `root-bookworm` (*bookworm/Dockerfile*)](https://github.com/CM2Walki/steamcmd/blob/master/bookworm/Dockerfile)
+  -	[`steam`, `steam-trixie`, `latest` (*trixie/Dockerfile*)](https://github.com/CM2Walki/steamcmd/blob/master/trixie/Dockerfile)
+  -	[`root`, `root-trixie` (*trixie/Dockerfile*)](https://github.com/CM2Walki/steamcmd/blob/master/trixie/Dockerfile)
+  -	[`steam-bookworm`, (*bookworm/Dockerfile*)](https://github.com/CM2Walki/steamcmd/blob/master/bookworm/Dockerfile)
+  -	[`root-bookworm` (*bookworm/Dockerfile*)](https://github.com/CM2Walki/steamcmd/blob/master/bookworm/Dockerfile)
   -	[`steam-bullseye`, `bullseye` (*bullseye/Dockerfile*)](https://github.com/CM2Walki/steamcmd/blob/master/bullseye/Dockerfile)
   -	[`root-bullseye` (*bullseye/Dockerfile*)](https://github.com/CM2Walki/steamcmd/blob/master/bullseye/Dockerfile)
 
@@ -30,7 +32,7 @@ This setup is necessary if you have to download a non-anonymous appID or upload 
 https://hub.docker.com/r/cm2network/steampipe/
 
 ## Configuration
-This image includes the `nano` text editor for convenience. 
+This image includes the `nano` text editor for convenience.
 
 The `steamcmd.sh` can be found in the following directory: `/home/steam/steamcmd`
 
