@@ -1,0 +1,5 @@
+#!/bin/bash
+BUILD_PATH=$(echo ${DOCKERFILE_PATH}| sed 's#/#..#g' | sed 's#[a-zA-Z0-9]\+#/#g' | cut -c 2- )
+
+docker build --target=trixie -f $(basename ${DOCKERFILE_PATH}) -t $DOCKER_REPO:latest -t $DOCKER_REPO:steam -t $DOCKER_REPO:steam-trixie ${BUILD_PATH}.
+docker build --target=trixie-root -f $(basename ${DOCKERFILE_PATH}) -t $DOCKER_REPO:root -t $DOCKER_REPO:root-trixie ${BUILD_PATH}.
